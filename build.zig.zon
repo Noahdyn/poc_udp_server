@@ -1,0 +1,14 @@
+.{
+    .name = "game_server",
+    .version = "0.1.0",
+    .paths = .{
+        "",
+    },
+    .dependencies = .{
+        .network = .{
+            .url = "https://github.com/ikskuh/zig-network/archive/refs/heads/master.tar.gz",
+            .hash = "122010eb328f52bb226dda468acc6577d7ed50a19d32f7024a96a3eabcb1180d5c02",
+        },
+    },
+}
+
